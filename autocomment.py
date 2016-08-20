@@ -4,7 +4,7 @@ cjar= cookielib.LWPCookieJar()
 cookie =urllib2.HTTPCookieProcessor(cjar)
 opener= urllib2.build_opener(cookie)
 
-note='33333333333333333333'
+
 
 def code(url):
     url = unicode(url, "gb2312").encode("utf8")
